@@ -16,7 +16,7 @@ This lab involves developing a code-generation agent that can generate solutions
 
 You will be provided with the following inputs:
 
-* **Natural Language Problem Description** **(description.txt)** – Contains a description of the coding task, the inputs given into the program, and information about the outputs. This will be given to the LLM.  
+* **Natural Language Problem Description** **(description.md)** – Contains a description of the coding task, the inputs given into the program, and information about the outputs. This will be given to the LLM.  
 * **Signature Template (signature.json)** – This is a JSON file that specifies the function signature of the Lean 4 program you will be implementing. This will be given to the LLM.  
 * **Unit Tests (test.json)** – This is a JSON file that contains the unit tests that your code is expected to run/pass. This will **not be given to the LLM.**   
 * **Lean Code (task.lean)** – This is a skeleton of the code that your LLM coding agent will need to fill out. It contains the blank function implementation (`def` keyword) and the theorems, which correspond to some constraint/specification of the implementation function. This will be given to the LLM.
